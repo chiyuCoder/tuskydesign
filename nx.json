@@ -5,7 +5,10 @@
       "outputs": [
         "{projectRoot}/dist"
       ],
-      "cache": true
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ]
     },
     "typecheck": {
       "cache": true
