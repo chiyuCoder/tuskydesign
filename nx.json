@@ -10,6 +10,9 @@
         "^build"
       ]
     },
+    "serve": {
+      "dependsOn": ["build"]
+    },
     "typecheck": {
       "cache": true
     }
